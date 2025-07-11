@@ -18,9 +18,9 @@ const VIEW_NAME = process.env.AIRTABLE_VIEW_NAME;
 const base = new Airtable({ apiKey: AIRTABLE_API_KEY }).base(BASE_ID);
 
 const PHONEPE_BASE_URL = 'https://mercury-t2.phonepe.com';
-const SALT_KEY = '2a787a89-c956-40fe-8cda-2245324950bf';
+const SALT_KEY = 'e5cf908d-dfcc-4332-872d-9ef35d30ac92';
 const SALT_INDEX = '1';
-const MERCHANT_ID = 'HERITAGEMOBILITY01';
+const MERCHANT_ID = 'GREENWHEELSTRAVEL';
 
 // ✅ **Log collection for Airtable to retrieve later**
 const logs = [];
